@@ -1,36 +1,16 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VTNetworks</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-      background-color: #000; /* optioneel */
-    }
+body, html {
+  height: 100%;
+}
 
-    .logo-container {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.bg {
+  /* The image used */
+  background-image: url("vtnetworks_logo.png");
 
-    .logo-container img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-    }
-  </style>
-</head>
-<body>
-  <div class="logo-container">
-    <img src="vtnetworks_logo.png</div>
-</body>
-</html>
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

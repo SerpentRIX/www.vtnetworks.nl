@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VTNetworks</title>
-
+<script>
 // Function to update favicon based on theme
 function updateFavicon(theme) {
   const favicon = document.querySelector('link[rel="icon"]') || 
@@ -30,7 +30,7 @@ if (window.matchMedia) {
     updateFavicon(e.matches ? 'dark' : 'light');
   });
 }  
-  
+</script>  
 <style>
 body, html {
   height: 100%;

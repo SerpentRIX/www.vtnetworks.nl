@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VTNetworks</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VTNetworks</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+argin: 0;
+    }
 
-.bg {
-  /* The image used */
-  background-image: url("vtnetworks_logo.png");
+    .bg {
+      background-image: url("vtnetworks_logo.png");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
 
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
+    .overlay-text {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.6); /* witte, semi-transparante overlay */
+      font-size: 16px;
+      font-family: sans-serif;
+      pointer-events: none; /* zorgt dat tekst geen interactie blokkeert */
+    }
+  </style>
 </head>
 <body>
 
-<div class="bg"></div>
-  
+  <div class="bg">
+    <div class="overlay-text">
+      © VTNetworks, 2012 - 2025. Alle rechten voorbehouden.
+    </div>
+  </div>
+
 </body>
 </html>
